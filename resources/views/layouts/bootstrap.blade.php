@@ -30,7 +30,7 @@
   <header class="blog-header py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
       <div class="col-4 pt-1">
-        <a class="link-secondary" href="#">Subscribe</a>
+        <a class="link-secondary" href="{{route('home')}}">CVElites</a>
       </div>
       <div class="col-4 text-center">
         <a class="blog-header-logo text-dark" href="#">Large</a>
@@ -46,9 +46,9 @@
   </header>
 
   <div class="nav-scroller py-1 mb-2">
-    <nav class="nav d-flex justify-content-between">
-      <a class="p-2 link-secondary" href="#">World</a>
-      <a class="p-2 link-secondary" href="#">U.S.</a>
+    <nav class="nav d-flex justify-content-center">
+      <a class="p-2 link-secondary font-weight-bold" href="#">Editer</a>
+      <!-- <a class="p-2 link-secondary" href="#">U.S.</a>
       <a class="p-2 link-secondary" href="#">Technology</a>
       <a class="p-2 link-secondary" href="#">Design</a>
       <a class="p-2 link-secondary" href="#">Culture</a>
@@ -58,12 +58,12 @@
       <a class="p-2 link-secondary" href="#">Science</a>
       <a class="p-2 link-secondary" href="#">Health</a>
       <a class="p-2 link-secondary" href="#">Style</a>
-      <a class="p-2 link-secondary" href="#">Travel</a>
+      <a class="p-2 link-secondary" href="#">Travel</a> -->
     </nav>
   </div>
 </div>
 
-<main class="container" id="html-template">
+<main id="main-container">
   @yield("content")
 </main>
 
